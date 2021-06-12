@@ -1,7 +1,7 @@
 <?php
 $database_host = "localhost";
-$database_username = "root";
-$database_password = "andlvov";
+$database_username = "test";
+$database_password = "4test$@123345";
 $database_name = "imap_read";
 
 ?>
