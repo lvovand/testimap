@@ -1,9 +1,10 @@
 <?php
+//тестирование подключения imap
 ini_set("display_errors",1);
 include_once "./inc/pdo.php";
 include_once "./inc/functions.php";
 
- $imap = imap_open("{imap.yandex.ru:993/imap/ssl}INBOX", "lvovand", "andlvov2$");
+ $imap = imap_open("{imap.yandex.ru:993/imap/ssl}INBOX", "test", "12345");
 $mails_id = imap_search($imap, 'ALL');
 $num = 0;
 var_dump($mails_id[$num]); 
