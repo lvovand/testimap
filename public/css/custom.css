@@ -1,0 +1,21 @@
+.metismenu i {
+    width: 22px !important;
+}
+
+table.rewrite_hist th{
+	text-align: center;
+}
+
+
+.rewrite_text_big, .rewrite_text_before, .rewrite_text_after{
+	display: -webkit-box;
+   -webkit-line-clamp: 3;
+   -webkit-box-orient: vertical;
+    overflow-y: hidden;
+}
+
+.rewrite_text_big_block, .rewrite_text_before_block, .rewrite_text_after_block{
+	display: block;
+   -webkit-line-clamp: none;
+   -webkit-box-orient: vertical;    
+}
